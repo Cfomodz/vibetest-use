@@ -3,10 +3,10 @@ Name: vibetest
 Version: 0.1.0
 Summary: Browser-agent QA swarm with MCP interface for testing AI-generated websites
 Requires-Python: >=3.11
-Requires-Dist: mcp[cli]>=1.0.0
-Requires-Dist: browser-use
-Requires-Dist: playwright
-Requires-Dist: langchain_google_genai
-Requires-Dist: langchain_core
-Requires-Dist: pydantic
-Requires-Dist: screeninfo
+Requires-Dist: mcp[cli]==1.13.1
+Requires-Dist: browser-use==0.6.1
+Requires-Dist: playwright==1.54.0
+Requires-Dist: langchain_google_genai==2.1.9
+Requires-Dist: langchain_core==0.3.74
+Requires-Dist: pydantic==2.11.7
+Requires-Dist: screeninfo==0.8.1
